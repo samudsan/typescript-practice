@@ -47,5 +47,5 @@ function exampleVar() {
 
 exampleVar();
 
-// Var variable is discouraged to use in ts due to its function scope instead of block scope 
-// and it leads to hoisting problem(accessing variable its declaration)
+// declaring variable using var is discouraged to use in ts due to its function scope instead of block scope 
+// and it leads to hoisting problem(accessing variable before its declaration)
